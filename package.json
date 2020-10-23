@@ -4,7 +4,8 @@
   "description": "system notification with templates de mensages - api",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "author": "Igor C. Batista",
   "license": "MIT",
